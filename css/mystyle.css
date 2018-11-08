@@ -1,0 +1,196 @@
+body{
+font-family: "Helvetica Neue",Helvetica,Tahoma,Arial,"PingFang SC","微软雅黑","Microsoft Yahei",Montserrat,"Heiti SC","黑体";
+font-size: 1rem;
+line-height: 1.5;
+}
+div{
+	opacity: 1;
+}
+a:link{
+	color: black;
+	text-decoration: none;
+}
+a:visited{
+	font-weight: 600;
+	color: black;
+}
+a:hover{
+	color: red;
+}
+.headimg{
+margin-left: 30%;
+}
+.head_line{
+	width: 1143.5px;
+	border-bottom: 2px solid #333;
+	background-color:#000000;
+	margin: auto;
+}
+.head_line B{
+	color: #FFFFFF;
+}
+.head_line a{
+	margin-left: 40px;
+}
+.nav_and_search_bar{
+width: 1143.5px;
+border-bottom: 2px groove #333;
+margin: auto;
+background-color: black;
+}
+.nav_and_search_bar B{
+color: white;
+}
+.nav_1 li{
+position: relative;
+float: left;
+list-style: none;
+word-spacing:22px;
+}
+.img_and_list{
+	margin: 0 0 0 51px;
+}
+.main_img{
+	border-style: outset; 
+	float: left;
+}
+.big_item{height:480px;width:600px;overflow:hidden;position:relative }
+.sb_item {height:146px;width:240px;overflow:hidden;position:relative }
+.sb_item+.sb_item {margin-top:21px;}
+.sb_item_pic {position:relative}
+.sb_item_pic>img {width:100%;}
+.sb_item_title {position:absolute;top:0px;padding:50px 10px 0px 10px;color:white;}
+.sb_item_mask {position:absolute;top:0px;opacity:0.4; filter:alpha(opacity=40);background-color:black;height:100%;width:100%;}
+.fc_news_type_tag {padding:2px 5px;font-size:12px;background:#0082f1;color:white;border-radius:2px;}
+.aside_list{
+	float: left;
+	height: 480px;
+	width:24.4%;
+	border-style: outset; 
+	background-color: white;
+	}
+.aside_list li{
+	list-style: none;
+	}
+.aside_list a{
+	font-weight: 600;
+	}
+.info_header{
+	height:30px;
+	border-bottom:2px solid #aaa;
+	width: 90%;
+}
+.info_header_left{
+	float: left;
+	font-size: 1.285rem;
+	font-weight: 700;
+	line-height: 30px;
+	border-bottom: 2px solid #333;
+}
+.info_header_right{
+	float: right;
+	line-height: 35px;
+}
+.info_header_right B{
+	color: #aaa;
+	font-weight: 400;
+}
+.newest_news_head{
+	text-align: center;
+	background-color: black;
+	color: white;
+	font-size: 30px;
+	font-family:黑体;
+	width: 1143.5px;
+	margin: auto;
+}
+.week_hot{
+width: 60%;
+float: left;
+margin: -16px 0 0 12px;
+}
+.item_box{
+	width: 100%;
+}
+.item_box li{
+	background-color: white;
+	height: 300px;
+	width: 99.3%;
+	border-style: outset; 
+	list-style: none;
+}
+.item_pic{
+	width: 50%;
+}
+.item{
+	width: 40%;
+	float: left;
+}
+.touch_hot{
+	width: 34.4%;
+	float: left;
+	border-style: outset; 
+	background-color: white;
+}
+.touch_hot 	ul li{
+	overflow: hidden;
+	list-style: none;
+}
+.super_link B{
+	color: red;
+}
+.super_link{
+	width: 80%;
+	margin: auto;
+}
+.super_link ol{
+	margin-left: -20px;
+}
+/* ---- stars.js ---- */
+
+.count-particles{
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13E8E9;
+  font-size: .8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.js-count-particles{
+  font-size: 1.1em;
+}
+
+#stats,
+.count-particles{
+  -webkit-user-select: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#stats{
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles{
+  border-radius: 0 0 3px 3px;
+}
+
+
+/* ---- particles.js container ---- */
+
+canvas{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: -1;
+  position: fixed;
+}
