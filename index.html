@@ -5,13 +5,13 @@
 		<title>HD-Sneakers</title>
 		<link rel="stylesheet" type="text/css" href="./css/mystyle.css">
 		<link rel="icon" href="./img/web.ico" type="image/x-icon">
+
 	</head>
 	<body>
 		<!--背景栏-->
 		<div id="particles-js"><canvas class="particles-js-canvas-el"style="position: fixed;
   z-index: -1"></canvas></div>
-		<script type="text/javascript" src="./jss/star.js" opacity=></script>
-
+  		<script type="text/javascript" src="./jss/star.js" ></script>
 		<!--头部菜单栏-->
 		<div class="head_line">
 			<a href="http://www.flightclub.cn/docs/aboutus"><B>首页</B></a>
@@ -25,7 +25,7 @@
 			<ul class="nav_1" >
 				<li><a href=""><B>最新发售</B></a>&nbsp;</li>
 				<li><a href=""><B>潮物推荐</B></a>&nbsp;</li>
-				<li><a href=""><B>校园论坛(暂未开通)</B></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+				<li><a href=""><B>校园论坛(暂未开通)</B></a></li>
 			</ul>
 			<form action="javascript:page_header_search()">
 				<div class="search_bar">
@@ -34,39 +34,60 @@
 				</div>
 			</form>
 		</div>
+		<div style="clear:both"></div>
 		<!--主图片和发售日历-->
 
 		<div class="img_and_list">
-		<div class="main_img">
-			<img  class ="big_item" src="./img/image_2.jpg" alt="main_image" align="left">
-				<div class="sb_item">
-				<a target="_blank" href="http://www.flightclub.cn/news/a/sneaker/2018/0921/45982.html">
-					<div class="sb_item_pic"><img src="./img/image1.jpg"></div>
-					<div class="sb_item_mask"></div>
-					<div class="sb_item_title">年底发售有戏了！半透明 Yeezy Boost 350 V2 “Static” 上脚还不错！</div>
-				</a></div>
-				<div class="sb_item">
-					<a target="_blank" href="http://www.flightclub.cn/news/a/sneaker/2018/0924/46035.html">
-						<div class="sb_item_pic"><img src="./img/image2.jpg"></div>
-						<div class="sb_item_mask"></div>
-						<div class="sb_item_title">肯豆 Kendall Jenner 亲晒 “白椰子” 上脚照，目的只有一个…</div>
-					</a></div>
-					<div class="sb_item">
+			<div class="banner_img">
+				<div class="bannerContent">
+					<div class="bannerLeft" style="z-index: -1; opacity: 0.99;">
+					<a target="_blank" href="http://www.flightclub.cn/news/a/sneaker/2018/0921/45982.html">
+						<img class="banner_pic" src="./img/image1.jpg">
+						<div class="bannerLeft_title">年底发售有戏了！半透明 Yeezy Boost 350 V2 “Static” 上脚还不错！</div>
+						</a> 
+					</div>
+					<div class="bannerLeft" style="z-index: -2; opacity: 0;">
+						<a target="_blank" href="http://www.flightclub.cn/news/a/sneaker/2018/0924/46035.html">
+							<img class="banner_pic" src="./img/image2.jpg">
+							<div class="bannerLeft_title">肯豆 Kendall Jenner 亲晒 “白椰子” 上脚照，目的只有一个…</div>
+						</a>
+					</div>
+					<div class="bannerLeft" style="z-index: -2; opacity: 0;">
 						<a target="_blank" href="http://www.flightclub.cn/news/a/sneaker/2018/0921/45982.html">
-							<div class="sb_item_pic"><img src="./img/image3.jpg"></div>
-							<div class="sb_item_mask">
-								
-							</div>
-							<div class="sb_item_title">预售价接近四千！Air Jordan 5 “Wings” 全新实物美图欣赏！</div>
-						</a></div>
-		</div>
+							<img class="banner_pic" src="./img/image3.jpg">
+							<div class="bannerLeft_title">预售价接近四千！Air Jordan 5 “Wings” 全新实物美图欣赏！</div>
+						</a>
+					</div>
+				</div>
+				<div class="switch-box">
+					<div class="bannerRight">
+					<a target="_blank" href="http://www.flightclub.cn/news/a/sneaker/2018/0921/45982.html">
+						<img class="banner_pic" src="./img/image1.jpg">
+						<div class="bannerRight_mask"></div>
+						<div class="bannerRight_title">年底发售有戏了！半透明 Yeezy Boost 350 V2 “Static” 上脚还不错！</div>
+					</a> </div>
+					<div class="bannerRight">
+						<a target="_blank" href="http://www.flightclub.cn/news/a/sneaker/2018/0924/46035.html">
+							<img class="banner_pic" src="./img/image2.jpg">
+							<div class="bannerRight_mask"></div>
+							<div class="bannerRight_title">肯豆 Kendall Jenner 亲晒 “白椰子” 上脚照，目的只有一个…</div>
+					</a></div>
+					<div class="bannerRight">
+						<a target="_blank" href="http://www.flightclub.cn/news/a/sneaker/2018/0921/45982.html">
+							<img class="banner_pic" src="./img/image3.jpg">
+							<div class="bannerRight_mask"></div>
+							<div class="bannerRight_title">预售价接近四千！Air Jordan 5 “Wings” 全新实物美图欣赏！</div>
+					</a></div>
+				</div>
+			</div>
+
 				<div class="aside_list">
 				<ul>
 					<li>
 						<div class=info_header>
 							<div class="info_header_left">发售日历
 							</div>
-							<div class="info_header_right"><a  href="/release" target="_blank" ><B>更多</B></a>
+							<div class="info_header_right" style="width: 32px;"><a  href="/release" target="_blank" ><B>更多</B></a>
 							</div>
 							<div style="clear:both"></div>
 						</div>
@@ -110,35 +131,29 @@
 			<div class="newest_news_head">
 				<B>最新资讯</B>
 			</div>
-			<div class="week_hot">
 				<div class="item_box">
-					<ul>
-					<li>
+					<div class="item_box_x">
 						<img src="./img/image_1-1.jpg" class="item_pic" align="left">
 						<div class="item">
 							<a href="http://www.flightclub.cn/news/a/sneaker/2018/0926/46102.html"><h1>疑似官图曝光！Air Jordan 8 “South Beach” 即将发售</h1></a>
 							<h4>南海岸粉丝不容错过 </h4>
 						</div>
-					</li>
-					<li>
+					</div>
+					<div class="item_box_x">
 						<img src="./img/image_1-2.jpg" class="item_pic" align="left">
 						<div class="item">
 							<a href="http://www.flightclub.cn/news/a/sneaker/2018/0926/46098.html"><h1>荔枝皮 + 磨砂皮！这双黑白撞色 Air Jordan 1 Mid 质感着实不俗！</h1></a>
 							<h4>中帮鞋型同样值得关注 </h4>
-							
 						</div>
-					</li>
-					<li>
+					</div>
+					<div class="item_box_x">
 						<img src="./img/image_1-3.jpg" class="item_pic" align="left">
 						<div class="item">
 							<a href="http://www.flightclub.cn/news/a/sneaker/2018/0926/46083.html"><h1>近期关注度最高的喷泡新品！辣椒喷 Foamposite One 下月底正式发售</h1></a>
 							<h4>官图正式发布 </h4>
-							
 						</div>
-					</li>
-					</ul>
+					</div>
 				</div>
-			</div>
 			<!---->
 			<div class="touch_hot">
 				<ul>
@@ -190,6 +205,6 @@
 		<div style="clear:both"></div>
 
 		</div>
-
+		<script type="text/javascript" src="./jss/hover.js" ></script>
 </body>
 </html>
