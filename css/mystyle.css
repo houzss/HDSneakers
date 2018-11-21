@@ -7,6 +7,12 @@ div{
 	width: 89%;
 	opacity: 1;
 }
+img:hover{
+	opacity: 1;/*鼠标移动到图片上时会有高亮效果*/
+}
+img{
+	opacity: 0.95;
+}
 a:link{
 	color: black;
 	text-decoration: none;
@@ -69,7 +75,6 @@ word-spacing:22px;
     width: 70%;
     height: 480px;
     overflow: hidden;
-    /* z-index: -2; */
 }
 .bannerLeft{
 	height: 480px;
@@ -96,14 +101,16 @@ word-spacing:22px;
 .bannerLeft_title {position:absolute;top:420px;color:white;font-size: large;font-weight: 900;left: 7%;}
 .bannerRight_title {position:absolute;top:0px;padding:50px 10px 0px 10px;color:white;}
 .bannerRight_mask {position:absolute;top:0px;opacity:0.4;background-color:black;height:100%;width:100%;}
-
+.bannerRight_mask:hover{
+	opacity: 0;
+}
 
 .aside_list{
 	float: left;
 	height: 480.4px;
 	width:23.8%;
 	border-style: outset; 
-	background-color: white;
+	background-color: RGB(255,255,255,0.6);
 	}
 .aside_list ul{
 	margin: -1% 0 0 -6%;
@@ -121,17 +128,17 @@ word-spacing:22px;
 	float: left;
 	font-size: 1.285rem;
 	font-weight: 700;
-	width: 84%;
+	width: 80%;
 	line-height: 30px;
 	border-bottom: 2px solid #333;
 }
 .info_header_right{
 	float: right;
 	line-height: 35px;
-	width: 15%;
+	width: 20%;
 }
 .info_header_right B{
-	color: #aaa;
+	color: #120a0a66;
 	font-weight: 400;
 }
 .newest_news{
@@ -150,25 +157,28 @@ word-spacing:22px;
 	float: left;
 }
 .item_box_x {
-	background-color: white;
+	background-color: RGB(255,255,255,.6);
 	height: 250px;
 	border-style: outset; 
 	width: 100%;
 }
 .item_pic{
-	width: 45%;
-	margin-top: 4%;
+	width: 40%;
+	opacity: 0.9;
 }
 .item{
 	width: 40%;
 	float: left;
 	font-size: 14px;
 }
+.item h1{
+	margin: auto;
+}
 .touch_hot{
 	width: 44.7%;
 	float: left;
 	border-style: outset; 
-	background-color: white;
+	background-color: RGB(255,255,255,.6);
 	margin-left: 0.2%;
 }
 .touch_hot 	ul li{
