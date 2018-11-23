@@ -5,7 +5,7 @@
 		<title>HD-Sneakers</title>
 		<link rel="stylesheet" type="text/css" href="./css/mystyle.css">
 		<link rel="icon" href="./img/web.ico" type="image/x-icon">
-
+		<link rel="stylesheet" href="./iconfont/iconfont.css">
 	</head>
 	<body>
 		<!--背景栏-->
@@ -22,15 +22,18 @@
 		<img src="./img/head1.jpg" alt="headimg">
 		</div>
 		<div class="nav_and_search_bar">
-			<ul class="nav_1" >
-				<li><a href=""><B>最新发售</B></a>&nbsp;</li>
-				<li><a href=""><B>潮物推荐</B></a>&nbsp;</li>
-				<li><a href=""><B>校园论坛(暂未开通)</B></a></li>
+			<ul class="nav_1" style="margin:0;">
+				<li><a href=""><i class="iconfont icon-star"></i><B>最新发售</B></a>&nbsp;</li>
+				<li><a href=""><i class="iconfont icon-rili"></i><B>发售日历</B></a>&nbsp;</li>
+				<li><a href=""><i class="iconfont icon-aixinxian"></i><B>潮物推荐</B></a>&nbsp;</li>
+				<li><a href=""><i class="iconfont icon-icon_luntan-xian"></i><B>校园论坛(暂未开通)</B></a></li>
 			</ul>
 			<form action="javascript:page_header_search()">
 				<div class="search_bar">
-					<input type="text"  placeholder="输入搜索关键词..." style="opacity: 0.9" value="">
-					<button type="submit"  >搜索</button>
+					<input type="text"  placeholder="输入搜索关键词..." style="opacity: 0.9;line-height: 21.5px;	background-color: black;color: white;">
+					<button type="submit" style="height: 28px;background-color: black;color: white;">
+						<i class="iconfont icon-sousuo"></i>搜索
+					</button>
 				</div>
 			</form>
 		</div>
@@ -85,7 +88,7 @@
 				<ul>
 					<li>
 						<div class=info_header>
-							<div class="info_header_left">发售日历
+							<div class="info_header_left"><i class="iconfont icon-youjiantou"></i>发售日历
 							</div>
 							<div class="info_header_right" style="width: 32px;"><a  href="/release" target="_blank" ><B>更多</B></a>
 							</div>
@@ -129,7 +132,9 @@
 		<!--最新资讯-->
 		<div class="newest_news">
 			<div class="newest_news_head">
+				<i class="iconfont icon-remen"></i>
 				<B>最新资讯</B>
+				<i class="iconfont icon-hotchunse"></i>
 			</div>
 				<div class="item_box">
 					<div class="item_box_x">
@@ -159,7 +164,7 @@
 				<ul>
 					<li>
 					<div class=info_header>
-							<div class="info_header_left">&gt;点击率排行
+							<div class="info_header_left"><i class="iconfont icon-youjiantou"></i>点击率排行
 							</div>
 							<div class="info_header_right"><B>24小时热点</B>
 							</div>
