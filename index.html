@@ -12,16 +12,9 @@
 		<div id="particles-js"><canvas class="particles-js-canvas-el"style="position: fixed;
   z-index: -1"></canvas></div>
   		<script type="text/javascript" src="./jss/star.js" ></script>
-		<!--头部菜单栏-->
-		<div class="head_line">
-			<a href="http://www.flightclub.cn/docs/aboutus"><B>首页</B></a>
-			<a target="_blank" href="http://www.flightclub.cn/docs/aboutus"><B>关于我们</B></a>
-		</div>
-		<!--图片以及导航栏-->
-		<div class="headimg">
-		<img src="./img/head1.jpg" alt="headimg">
-		</div>
-		<div class="nav_and_search_bar">
+
+  		<!--隐藏导航栏-->
+  		<div Id="nav_and_search_bar_1" style="opacity: 0;">
 			<ul class="nav_1" style="margin:0;">
 				<li><a href=""><i class="iconfont icon-star"></i><B>最新发售</B></a>&nbsp;</li>
 				<li><a href=""><i class="iconfont icon-rili"></i><B>发售日历</B></a>&nbsp;</li>
@@ -38,6 +31,34 @@
 			</form>
 		</div>
 		<div style="clear:both"></div>
+		<!--头部菜单栏-->
+		<div class="head_line">
+			<a href="http://www.flightclub.cn/docs/aboutus"><B>首页</B></a>
+			<a target="_blank" href="http://www.flightclub.cn/docs/aboutus"><B>关于我们</B></a>
+		</div>
+		<!--图片以及导航栏-->
+		<div class="headimg">
+		<img src="./img/head1.jpg" alt="headimg">
+		</div>
+
+		<div Id="nav_and_search_bar">
+			<ul class="nav_1" style="margin:0;">
+				<li><a href=""><i class="iconfont icon-star"></i><B>最新发售</B></a>&nbsp;</li>
+				<li><a href=""><i class="iconfont icon-rili"></i><B>发售日历</B></a>&nbsp;</li>
+				<li><a href=""><i class="iconfont icon-aixinxian"></i><B>潮物推荐</B></a>&nbsp;</li>
+				<li><a href=""><i class="iconfont icon-icon_luntan-xian"></i><B>校园论坛(暂未开通)</B></a></li>
+			</ul>
+			<form action="javascript:page_header_search()">
+				<div class="search_bar">
+					<input type="text"  placeholder="输入搜索关键词..." style="opacity: 0.9;line-height: 21.5px;	background-color: black;color: white;">
+					<button type="submit" style="height: 28px;background-color: black;color: white;">
+						<i class="iconfont icon-sousuo"></i>搜索
+					</button>
+				</div>
+			</form>
+		</div>
+		<div style="clear:both"></div>
+		
 		<!--主图片和发售日历-->
 
 		<div class="img_and_list">
@@ -92,9 +113,9 @@
 							</div>
 							<div class="info_header_right" style="width: 32px;"><a  href="/release" target="_blank" ><B>更多</B></a>
 							</div>
-							<div style="clear:both"></div>
 						</div>
 					</li>
+					<div style="clear:both"></div>
 					<li>
 						<div class="date">10 月 25 日</div>
 						<div class="title"><a target="_blank" href="/release/info/OFF_WHITE_x_Nike_Blazer_Mid_Grim_Reaper" align="right">OFF-WHITE x Nike Blazer Mid “Grim Reaper”</a></div>
@@ -208,8 +229,8 @@
 			</div>
 		</div>
 		<div style="clear:both"></div>
-
-		</div>
 		<script type="text/javascript" src="./jss/hover.js" ></script>
+		<script type="text/javascript" src="./jss/scroll.js"></script>
+		</div>
 </body>
 </html>

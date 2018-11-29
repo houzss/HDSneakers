@@ -2,6 +2,7 @@ body{
 font-family: "Helvetica Neue",Helvetica,Tahoma,Arial,"PingFang SC","微软雅黑","Microsoft Yahei",Montserrat,"Heiti SC","黑体";
 font-size: 1rem;
 line-height: 1.5;
+margin: 0px;
 }
 div{
 	width: 89%;
@@ -40,14 +41,28 @@ height: 100%;
 .head_line a{
 	margin-left: 40px;
 }
-.nav_and_search_bar{
+#nav_and_search_bar{
 border-top: 4px groove #333;
 margin: auto;
 margin-top: -8px;
 background-color: black;
 height: 32px;
+z-index: 1;
 }
-.nav_and_search_bar B{
+#nav_and_search_bar_1{
+opacity: 0;
+border-top: 4px groove #333;
+margin-left: 5.5%;
+position: fixed;
+z-index: 999;
+background-color: black;
+height: 32px;
+}
+#nav_and_search_bar B{
+color: white;
+font-size: larger;
+}
+#nav_and_search_bar_1 B{
 color: white;
 font-size: larger;
 }

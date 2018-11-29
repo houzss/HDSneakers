@@ -1,5 +1,4 @@
 
-
 var bannerLeft = document.getElementsByClassName("bannerLeft");
 var bannerRight = document.getElementsByClassName("bannerRight");
 //将以上代码放入window.onload或者把js文件在body底部引用，不然会获取不到元素
