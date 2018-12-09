@@ -24,7 +24,7 @@ var txt ={
 	var i;
 	var x="";
 	for(i in txt.sneakers){
-	x+="<li><div class=\"img_box\"><img src=\"../Img/"+txt.sneakers[i].img+"</div>";
+	x+="<li><div class=\"img_box\"><img src=\"img_release/"+txt.sneakers[i].img+"</div>";
 	x+="<div class=\"item_box\"><a target=\"_blank\" href=\"#\"><B>"+txt.sneakers[i].ID+"</B></a>";
 	x+="<div class=\"date\"><b>发售日期:</b><h4>"+txt.sneakers[i].date+"</h4></div>";
 	x+="<div class=\"price\"><b>发售价:</b><h4>"+txt.sneakers[i].price+"</h4></div></div></li><BR>";
