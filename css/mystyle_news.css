@@ -1,0 +1,228 @@
+body{
+font-family: "Helvetica Neue",Helvetica,Tahoma,Arial,"PingFang SC","微软雅黑","Microsoft Yahei",Montserrat,"Heiti SC","黑体";
+font-size: 1rem;
+line-height: 1.5;
+margin: 0px;
+}
+div{
+	width: 89%;
+	opacity: 1;
+}
+img:hover{
+	opacity: 1;/*鼠标移动到图片上时会有高亮效果*/
+}
+img{
+	opacity: 0.95;
+}
+a:link{
+	color: black;
+	text-decoration: none;
+}
+a:visited{
+	font-weight: 600;
+	color: black;
+}
+a:hover{
+	color: red;
+}
+.headimg{
+margin-left: 33%;
+width: 100%;
+height: 100%;
+}
+.head_line{
+	border-bottom: 4px groove #333;
+	background-color:#000000;
+	margin: auto;
+}
+.head_line B{
+	color: #FFFFFF;
+}
+.head_line a{
+	margin-left: 40px;
+}
+#nav_and_search_bar{
+border-top: 4px groove #333;
+margin: auto;
+margin-top: -8px;
+background-color: black;
+height: 32px;
+z-index: 1;
+}
+#nav_and_search_bar_1{
+opacity: 0;
+border-top: 4px groove #333;
+margin-left: 5.5%;
+position: fixed;
+z-index: 999;
+background-color: black;
+height: 32px;
+}
+#nav_and_search_bar B{
+color: white;
+font-size: larger;
+}
+#nav_and_search_bar_1 B{
+color: white;
+font-size: larger;
+}
+.search_bar{
+	float: right;
+	width: 225px;
+	margin-top: 2px;
+}
+.nav_1 li{
+position: relative;
+float: left;
+list-style: none;
+word-spacing:22px;
+}
+.main_box{
+	margin:auto;
+}
+.news_detail_title {
+    width: 100%;
+    height: 3rem;
+    line-height: 3rem;
+    overflow: hidden;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.news_detail_title h1 {
+	color: white;
+    font-size: 2.5rem;
+    margin: 0 !important;
+}
+.main_col_left{
+	width: 65%;
+	float: left;
+	background-color: RGB(255,255,255,.6);
+}
+.main_img{
+	width: 100%;
+}
+.info{
+	width: 100%;
+}
+.desc{
+	width: 70%;
+	float: left;
+}
+.share{
+	width: 25%;
+	float: right;
+}
+.share_right{
+	float: right;
+}
+.main_col_right{
+	width: 35%;
+	float: right;
+}
+
+.aside_list{
+	float: left;
+	height: 480.4px;
+	width:100%;
+	border-style: outset; 
+	background-color: RGB(255,255,255,0.6);
+	}
+.aside_list ul{
+	list-style: none;
+	}
+.aside_list a{
+	font-weight: 600;
+	}
+.info_header{
+	height:30px;
+	border-bottom:2px solid #aaa;
+	width: 90%;
+}
+.info_header_left{
+	float: left;
+	font-size: 1.285rem;
+	font-weight: 700;
+	width: 70%;
+	line-height: 30px;
+	border-bottom: 2px solid #333;
+}
+.info_header_right{
+	float: right;
+	line-height: 35px;
+	width: 30%;
+}
+.info_header_right B{
+	color: #120a0a66;
+	font-weight: 400;
+	float: right;
+}
+
+.touch_hot{
+	width: 100%;
+	float: left;
+	border-style: outset; 
+	background-color: RGB(255,255,255,.6);
+	margin-left: 0.2%;
+}
+.touch_hot 	ul li{
+	overflow: hidden;
+	list-style: none;
+}
+.super_link B{
+	color: red;
+}
+.super_link{
+	width: 80%;
+	margin: auto;
+}
+.super_link ol{
+	margin-left: -20px;
+}
+/* ---- stars.js ---- */
+
+.count-particles{
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13E8E9;
+  font-size: .8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.js-count-particles{
+  font-size: 1.1em;
+}
+
+#stats,
+.count-particles{
+  -webkit-user-select: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#stats{
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles{
+  border-radius: 0 0 3px 3px;
+}
+
+
+/* ---- particles.js container ---- */
+
+canvas{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: -1;
+  position: fixed;
+}
