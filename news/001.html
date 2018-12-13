@@ -6,6 +6,7 @@
 		<link rel="stylesheet" type="text/css" href="../css/mystyle_news.css">
 		<link rel="icon" href="../img/web.ico" type="image/x-icon">
 		<link rel="stylesheet" href="../iconfont/iconfont.css">
+		<link rel="stylesheet" href="dist/css/share.min.css">
 	</head>
 	<body>
 		<!--背景栏-->
@@ -61,50 +62,20 @@
 			<div class="main_col_left">
 
 				<div class="info">
-				  <div class="desc">发布时间: 2018-11-21 18:26 浏览次数: <span id="news_count">19461</span></div>
-				  <div class="share" >
-				  	<div class="bdsharebuttonbox" data-tag="share_1">
-						<a class="bds_mshare" data-cmd="mshare"></a>
-						<a class="bds_qzone" data-cmd="qzone" href="#"></a>
-						<a class="bds_tsina" data-cmd="tsina"></a>
-						<a class="bds_baidu" data-cmd="baidu"></a>
-						<a class="bds_renren" data-cmd="renren"></a>
-						<a class="bds_tqq" data-cmd="tqq"></a>
-						<a class="bds_more" data-cmd="more">更多</a>
-						<a class="bds_count" data-cmd="count"></a>
+					<div class="desc">发布时间: 2018-11-21 18:26 浏览次数: <span id="news_count">19461</span>
 					</div>
+					  <div class="social-share" style="float:right;width: 100%;">
+					  </div>
 					<script>
-						window._bd_share_config = {
-							common : {
-								bdText : '杭电球鞋资讯平台',	
-								bdDesc : 'HD-Sneakers',	
-								bdUrl : 'https://bubblesponge.github.io/HDSneakers/', 	
-								bdPic : 'https://bubblesponge.github.io/HDSneakers/thumb.png'
-							},
-							share : [{
-								"bdSize" : 16
-							}],
-							slide : [{	   
-								bdImg : 0,
-								bdPos : "right",
-								bdTop : 100
-							}],
-							image : [{
-								viewType : 'list',
-								viewPos : 'top',
-								viewColor : 'black',
-								viewSize : '16',
-								viewList : ['qzone','tsina','huaban','tqq','renren']
-							}],
-							selectShare : [{
-								"bdselectMiniList" : ['qzone','tqq','kaixin001','bdxc','tqf']
-							}]
-						}
-						with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];
+						var $config = {
+					    title               : 'HD-Sneakers',
+					    description         : '杭电球鞋资讯平台',
+					    image 				: 'https://bubblesponge.github.io/HDSneakers/thumb.png',
+					};
+					socialShare('.social-share-cs', $config);
 					</script>
-				  </div>
-				  <div style="clear:both"></div>
 				</div>
+				  <div style="clear:both"></div>
 				<div class="content">
 				<br>
 				<img src="img_news/001_1.jpg" class="main_img" ><br>
@@ -227,7 +198,7 @@
 		</div>
 
 		<div style="clear:both"></div>
-		<script type="text/javascript" src="../jss/hover.js" ></script>
 		<script type="text/javascript" src="../jss/scroll.js"></script>
+		<script src="dist/js/social-share.min.js"></script>
 </body>
 </html>
