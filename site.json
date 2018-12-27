@@ -5,6 +5,6 @@
 	"summary":"一个专属于杭电学生的球鞋信息分享平台,集最新球鞋资讯、发售日历、潮物推荐、校园论坛等功能于一体的网站。",
 	"introduction":"动态粒子jquery特效打底，纯黑背景与灰色透明化框架更使这个网页高大上；iconfonts矢量图片库、轮播图与滚动监听保持菜单置顶等功能搭配，更是相得益彰；发售日历通过json导入，球鞋详细信息页完成分享到多个平台的功能也非常实用。",
 	"demo":"https://bubblesponge.github.io/HDSneakers/",
-	"thumbnail":"https://github.com/BubbleSponge/HDSneakers/blob/master/thumb.png",
-	"image":"https://github.com/BubbleSponge/HDSneakers/blob/master/thumb.gif",
+	"thumbnail":"https://github.com/BubbleSponge/HDSneakers/raw/master/thumb.png",
+	"image":"https://github.com/BubbleSponge/HDSneakers/raw/master/thumb.gif",
 }
