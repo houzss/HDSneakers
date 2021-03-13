@@ -16,7 +16,7 @@ MyFirstWeb
   5、iconfonts字体库配置
     从阿里在线库中下载资源配置于项目文件中，通过div导入相应矢量图。
     阿里在线字符库：https://www.iconfont.cn/
-  demo：https://bubblesponge.github.io/HDSneakers/index.html
+  demo：https://houzss1.github.io/HDSneakers/index.html
   
 ##发售日历
   json导入数据
@@ -27,4 +27,4 @@ MyFirstWeb
   分享button
     通过导入已有div
   参考网页：https://github.com/overtrue/share.js
-  demo：https://bubblesponge.github.io/HDSneakers/news/001.html
+  demo：https://houzss1.github.io/HDSneakers/news/001.html
